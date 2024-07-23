@@ -11,13 +11,13 @@ from sklearn.linear_model import LinearRegression
 from sklearn.cluster import KMeans
 import altair as alt
 
-user = 'root'
-password = 'root'
-host = 'localhost'
-port = '8889'
-database = 'hashawa2'
+#user = 'root'
+#password = 'root'
+#host = 'localhost'
+#port = '8889'
+#database = 'hashawa2'
 # Create SQLAlchemy engine
-engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}:{port}/{database}')   
+#engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}:{port}/{database}')   
 
 st.set_page_config(layout="wide")
 st.balloons()
