@@ -250,7 +250,7 @@ def scaleData():
 
 st.header("Loan Analysis and Prediction System")
 
-home, insight, recomendation, loanPrediction, customerSection, graph, customerForm, loanForm = st.tabs(['Home','Data Insight','Loan Recomendation','Loan Prediction','Customer Analaysis','Graphs','New Customer Form','New Loan Request'])
+home, insight, recomendation, loanPrediction, customerSection, graph, customerForm, newLoanForm = st.tabs(['Home','Data Insight','Loan Recomendation','Loan Prediction','Customer Analaysis','Graphs','New Customer Form','New Loan Request'])
 
 with home:
     st.subheader("Introduction")
@@ -432,7 +432,7 @@ customers               = pd.read_csv("customers.csv")
 with customerForm:
     st.text("New customer form goes here")
 
-with loanForm:
+with newLoanForm:
     st.text("New loan rewuest form goes here")
 
 
