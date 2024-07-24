@@ -250,7 +250,7 @@ def scaleData():
 
 st.header("Loan Analysis and Prediction System")
 
-home, insight, recomendation, loanPrediction, customerSection, graph = st.tabs(['Home','Data Insight','Loan Recomendation','Loan Prediction','Customer Analaysis','Graphs'])
+home, insight, recomendation, loanPrediction, customerSection, graph, customerForm, loanForm = st.tabs(['Home','Data Insight','Loan Recomendation','Loan Prediction','Customer Analaysis','Graphs','New Customer Form','New Loan Request'])
 
 with home:
     st.subheader("Introduction")
