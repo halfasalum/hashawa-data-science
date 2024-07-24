@@ -429,6 +429,12 @@ def loansByAge():
 customers               = pd.read_csv("customers.csv")
 
 
+with customerForm:
+    st.text("New customer form goes here")
+
+with loanForm:
+    st.text("New loan rewuest form goes here")
+
 
 with insight:
     customer_insight   = pd.read_csv("customers_insight.csv")
